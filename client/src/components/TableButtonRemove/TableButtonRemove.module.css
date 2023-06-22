@@ -1,0 +1,17 @@
+.button {
+  width: 40px;
+  height: 30px;
+  background-color: #f86060;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.button img {
+  width: 15px;
+  height: 15px;
+}

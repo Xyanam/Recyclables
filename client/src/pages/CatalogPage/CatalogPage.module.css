@@ -1,0 +1,58 @@
+.table {
+  width: 100%;
+  padding: 0 15px;
+}
+.newOrder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleBlock {
+  flex: 1;
+  text-align: center;
+}
+.titleBlock h1 {
+  font-weight: 500;
+}
+.buttonBlock {
+  margin-right: 30px;
+}
+.buttonBlock button {
+  color: white;
+  padding: 10px 15px;
+  background-color: #6688e9;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+.popupInputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.input input {
+  background-color: #d9d9d9;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 15px;
+  outline: none;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
